@@ -11,6 +11,7 @@ function Nextpage() {
       .then((response) => setApiData(response.data))
       .catch((error) => console.log(error))
   }
+  console.log("data")
 
   useEffect(() => {
     loadData()
